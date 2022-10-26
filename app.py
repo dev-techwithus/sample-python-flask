@@ -2,10 +2,10 @@
  * Project name: Sample Python Flask
  * File name : app.py
  * Author : Sashwat K <sashwat0001@gmail.com>
- * Last updated : 14 May 2020
+ * Last updated : 26 Oct 2022
 """
 
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify
 
 app = Flask(__name__)
 filesLocation = "/tmp"
